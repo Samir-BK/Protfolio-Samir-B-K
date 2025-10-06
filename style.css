@@ -417,7 +417,7 @@ footer{
     .home-container {
         /* Stack the image and text vertically */
         flex-direction: column; /*makes the left and right container in column*/
-        min-height: 100vh;
+        min-height: auto;
         padding-top: 80px; /* Give space below the sticky nav */
         padding-bottom: 40px;
     }
@@ -480,7 +480,7 @@ footer{
         /* Stack the columns vertically */
         flex-direction: column;
         padding: 0 80px;
-        min-height: 100vh; /* Allow content to dictate height */
+        min-height: auto; /* Allow content to dictate height */
     }
     
     .about-section .about-content,
