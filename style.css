@@ -97,6 +97,10 @@ body{
     height: auto; /*tells the element to automatically adjust its height based on its content.*/
     border-radius: 35%;
     box-shadow: 10px 15px 30px rgba(5, 156, 18, 0.8); /*adds a shadow effect to an element*/
+    transition: 0.4s ease-in-out;
+}
+.left-container .picture img:hover{
+    box-shadow: 2px 15px 20px rgba(179, 4, 42, 0.8);
 }
 
 
@@ -216,7 +220,7 @@ body{
     margin-bottom: 40px; 
     border: solid 1.5px rgb(102, 90, 90);
     border-radius: 20px;
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -379,7 +383,7 @@ input, textarea{
     color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 25px rgba(92, 1, 1, 0.4);
-    transition: 0.4s ease;
+    transition: 0.3s ease;
     cursor: pointer;
 }
 
